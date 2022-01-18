@@ -35,21 +35,21 @@ column.
 
     Expression                  String/Integer/Float        Prediction of Result                Interpreter Result
 a   10 * 2                      integer                     20                                           20
-b   .5 * 2                        /integer/  float                 1                                           1.0
-c   10/2                            /integer/   float                 5                                        5.0       
-d   10%2                             integer                0                                                   
-e   2 ** 3                            integer               8                                                   
-f   (2+5)*3                         integer                 21                                              
-g   2 + 5 * 3                           integer              17                                             
-h   'ab' + '12' + '3'                   string                'ab123'                                       
-i   x                                                          error                                                 
-j   "ab" + "cd"                         string              "abcd"                                              
-k   'abc' * 2                           string               'abcabc'                                       
-l   '1'*2 + '2' * 3                     string              '11222'                                     
-m   1 * 2 + '3' * 2                     string               '3+'33'                                    
-n   'A' ** 2                            string                 error                                                
-o   'bc' % 2                            string               error                                                  
-p   'bc' / 2                                string             error                                            
+b   .5 * 2                      integer                   1                                           1.0; should be float
+c   10/2                        integer                    5                                        5.0; should be float      
+d   10%2                        integer                0                                             0      
+e   2 ** 3                      integer               8                                                 8  
+f   (2+5)*3                         integer                 21                                           21   
+g   2 + 5 * 3                           integer              17                                           17  
+h   'ab' + '12' + '3'                   string                'ab123'                                       'ab123'
+i   x                                                          error                                         error        
+j   "ab" + "cd"                         string              "abcd"                                            'abcd'  
+k   'abc' * 2                           string               'abcabc'                                       'abcabc'
+l   '1'*2 + '2' * 3                     string              '11222'                                           '11222'
+m   1 * 2 + '3' * 2                     string               '3+'33'                                            error
+n   'A' ** 2                            string                 error                                             error   
+o   'bc' % 2                            string               error                                                error  
+p   'bc' / 2                                string             error                                            error
 
 Now go to the IDE
 Use the interpreter to evaluate the expressions, write down results in the "Interpreter Result" column.

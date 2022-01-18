@@ -10,7 +10,7 @@ a)  print("1")                                               1
 b)  print(1)                                                 1
 c)  print(1 + 2)                                             3
 d)  print("1" + "2")                                         12
-e)  print("this" + " " + "is" + " " +                        
+e)  print("this" + " " + "is" + " " +                        this is a sentence.
     "a" + " " +
     "sentence" + ".")
 
@@ -21,15 +21,15 @@ Type and run the following:
     print(animal + " are really cool.")
 In your Notebook
 Respond to the following:
-    1. What happens?
-    2. How would you make the program print out "cats are really cool" instead?
+    1. What happens? It says dogs are really cool.
+    2. How would you make the program print out "cats are really cool" instead? Say animal="cats' then print "animal + "are really cool"
 
 2. In your Console
 Type and run the following code:
 print(dogs + " are cool.")
 In your Notebook
 Respond to the following questions:
-    1. What output does this produce?
-    2. Why does this happen?
+    1. What output does this produce? It gives an error saying 'dogs'isn't defined.
+    2. Why does this happen? there are no quotes around 'dogs' so the ide sees it as an undefined variable.
 '''
 print(1)

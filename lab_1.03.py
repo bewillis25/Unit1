@@ -29,7 +29,7 @@ Type and run the following code:
 print(dogs + " are cool.")
 In your Notebook
 Respond to the following questions:
-    1. What output does this produce? It gives an error saying 'dogs'isn't defined.
+    1. What output does this produce? It gives an error saying 'dogs' isn't defined.
     2. Why does this happen? there are no quotes around 'dogs' so the ide sees it as an undefined variable.
 '''
 print(1)
